@@ -213,7 +213,7 @@ twice.
 
 ## Evidence Links
 
-- Repository: https://github.com/Sub-Rosa-Issue/sub-rosa-issue
+- Repository: https://github.com/Sub-Rosa-Issue/Meshvault-Labs
 - Mainnet contract:
   https://stellar.expert/explorer/public/contract/CA7KSDEYJEPGZEB2ZROTLUWKQQ6GIRIQNGG6Z745MZ34QHP4UJPWODEX
 - SCF #44 round:

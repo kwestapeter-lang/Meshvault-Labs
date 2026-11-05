@@ -149,16 +149,19 @@ See **[ARCHITECTURE.md](./ARCHITECTURE.md)** for the system map, lifecycle, trus
 
 ## Monorepo layout
 
-```
-contracts/round/        Soroban primitive (Rust)
-packages/tlock/         tlock seal + auditor blob
-packages/sdk/           SubRosaClient + optional OZ Channels submitter
-services/keeper/        Permissionless keeper + watch mode
-services/appraisal-api/ x402-gated appraisal
-services/agent/         Multi-agent bidders (mandate + caps)
-apps/web/               Jury demo UI
-docs/                   Design, threat model, track answers, deploy, limitations
-```
+The codebase is organized into two primary root directories:
+
+### 1. `contracts/` — Rust Smart Contracts (Soroban)
+- [`contracts/round/`](./contracts/round/) — Confidential commit-reveal coordination round primitive (`sub-rosa-round`)
+- See [`contracts/README.md`](./contracts/README.md) for contract building and testing instructions
+
+### 2. `web-and-services/` — Web, Packages & Services (TypeScript)
+- [`web-and-services/apps/web/`](./web-and-services/apps/web/) — Jury demo UI & dashboard
+- [`web-and-services/packages/`](./web-and-services/packages/) — Client libraries (`sdk`, `tlock`, `time`, `logging`, `round-bindings`, `types`)
+- [`web-and-services/services/`](./web-and-services/services/) — Off-chain daemons & tools (`keeper`, `agent`, `appraisal-api`, `drand-tools`, `receipt-cli`, `auction-template`)
+- See [`web-and-services/README.md`](./web-and-services/README.md) for web & services instructions
+
+*(Symlinks for `apps/`, `packages/`, and `services/` are maintained at the repository root for backward compatibility with root scripts and tools).*
 
 ## Quick start
 

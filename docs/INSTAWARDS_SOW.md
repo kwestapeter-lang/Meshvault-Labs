@@ -22,10 +22,10 @@
 
 ### Supporting Links (Existing Work)
 
-- GitHub repo: https://github.com/Sub-Rosa-Issue/sub-rosa-issue
+- GitHub repo: https://github.com/Sub-Rosa-Issue/Meshvault-Labs
 - Live demo: https://sub-rosa-web.vercel.app
 - Demo video: https://youtu.be/NDuR5B2ztQo
-- Architecture: https://github.com/Sub-Rosa-Issue/sub-rosa-issue/blob/main/ARCHITECTURE.md
+- Architecture: https://github.com/Sub-Rosa-Issue/Meshvault-Labs/blob/main/ARCHITECTURE.md
 - Pitch deck: https://gamma.app/docs/SUB-ROSA-g8o9ulvc7nezz4j?mode=doc
 
 ---

@@ -125,7 +125,7 @@ credential exposure are first-class review concerns:
 - **Found suspicious code or leaked credentials?** Report it privately — see
   [SECURITY.md](./SECURITY.md). If your fork has not populated SECURITY.md
   yet, use the GitHub Security tab of the upstream repository,
-  [Sub-Rosa-Issue/sub-rosa-issue](https://github.com/Sub-Rosa-Issue/sub-rosa-issue/security),
+  [Sub-Rosa-Issue/Meshvault-Labs](https://github.com/Sub-Rosa-Issue/Meshvault-Labs/security),
   and choose "Report a vulnerability". Do not open a public issue for it.
 
 ## License

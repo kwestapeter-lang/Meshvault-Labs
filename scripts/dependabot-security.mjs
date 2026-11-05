@@ -26,7 +26,7 @@ const diagnostics = createLogger("scripts.dependabot-security");
 import { execFileSync } from "node:child_process";
 import { pathToFileURL } from "node:url";
 
-export const DEFAULT_REPO = "Sub-Rosa-Issue/sub-rosa-issue";
+export const DEFAULT_REPO = "Sub-Rosa-Issue/Meshvault-Labs";
 
 /**
  * Llama a `gh api` y devuelve `{ ok, status, body }` sin tirar.

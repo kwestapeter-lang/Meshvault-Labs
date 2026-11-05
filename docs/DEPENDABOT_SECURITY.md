@@ -11,7 +11,7 @@ verify them later.
 
 > **Not covered here:** scheduled version updates (weekly grouped PRs via
 > `.github/dependabot.yml`) are tracked separately in
-> [#482](https://github.com/Sub-Rosa-Issue/sub-rosa-issue/issues/482).
+> [#482](https://github.com/Sub-Rosa-Issue/Meshvault-Labs/issues/482).
 > Security updates work with or without that file, and this runbook does not
 > upgrade any dependency.
 
@@ -80,7 +80,7 @@ Expected output once everything is on (logged as structured JSON lines):
 [ENABLED] Dependency graph — Always on for public repositories.
 [ENABLED] Dependabot alerts
 [ENABLED] Dependabot security updates
-All Dependabot security settings are enabled on Sub-Rosa-Issue/sub-rosa-issue
+All Dependabot security settings are enabled on Sub-Rosa-Issue/Meshvault-Labs
 ```
 
 Exit codes: `0` everything is on, `1` a setting is disabled, paused, or
@@ -132,9 +132,9 @@ that way:
 
 ## Related
 
-- [#486](https://github.com/Sub-Rosa-Issue/sub-rosa-issue/issues/486): this
+- [#486](https://github.com/Sub-Rosa-Issue/Meshvault-Labs/issues/486): this
   runbook (alerts and security updates).
-- [#482](https://github.com/Sub-Rosa-Issue/sub-rosa-issue/issues/482):
+- [#482](https://github.com/Sub-Rosa-Issue/Meshvault-Labs/issues/482):
   scheduled weekly version updates via `.github/dependabot.yml`.
 - [docs/CI.md](./CI.md): the CI gates every security-update PR must pass.
 - [docs/THREAT_MODEL.md](./THREAT_MODEL.md): the project threat model.

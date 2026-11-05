@@ -14,7 +14,7 @@ Security updates are applied to the latest `main` branch and active releases of 
 
 We use **GitHub Private Vulnerability Reporting** so security researchers can submit confidential security advisories directly to the maintainers:
 
-1. Navigate to the [**Security Advisories**](https://github.com/Sub-Rosa-Issue/sub-rosa-issue/security/advisories/new) page for this repository (`Security` tab -> `Report a vulnerability`).
+1. Navigate to the [**Security Advisories**](https://github.com/Sub-Rosa-Issue/Meshvault-Labs/security/advisories/new) page for this repository (`Security` tab -> `Report a vulnerability`).
 2. Provide a clear description of the vulnerability, affected component(s) (`contracts/sub-rosa`, `services/indexer`, `packages/sdk`, or `apps/web`), reproduction steps or proof-of-concept, and potential impact.
 3. Submit the draft advisory privately.
 
@@ -30,10 +30,10 @@ Maintainers can enable or verify GitHub Private Vulnerability Reporting at any t
 
 ```bash
 # Check current Private Vulnerability Reporting status
-node scripts/private-vulnerability-reporting.mjs --repo Sub-Rosa-Issue/sub-rosa-issue
+node scripts/private-vulnerability-reporting.mjs --repo Sub-Rosa-Issue/Meshvault-Labs
 
 # Enable Private Vulnerability Reporting via GitHub REST API
-node scripts/private-vulnerability-reporting.mjs --repo Sub-Rosa-Issue/sub-rosa-issue --enable
+node scripts/private-vulnerability-reporting.mjs --repo Sub-Rosa-Issue/Meshvault-Labs --enable
 ```
 
 See [`docs/PRIVATE_VULNERABILITY_REPORTING.md`](docs/PRIVATE_VULNERABILITY_REPORTING.md) for the complete operational runbook.

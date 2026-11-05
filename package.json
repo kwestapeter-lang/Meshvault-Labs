@@ -1,12 +1,12 @@
 {
-  "name": "sub-rosa",
+  "name": "meshvault-labs",
   "version": "0.1.0",
   "private": true,
   "description": "Escrow-backed sealed auction infrastructure for Stellar.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Sub-Rosa-Issue/sub-rosa-issue.git"
+    "url": "https://github.com/Sub-Rosa-Issue/Meshvault-Labs.git"
   },
   "packageManager": "pnpm@10.13.1",
   "engines": {

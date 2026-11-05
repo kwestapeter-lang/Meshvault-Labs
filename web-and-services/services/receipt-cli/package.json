@@ -1,0 +1,32 @@
+{
+  "name": "@sub-rosa/receipt-cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Deterministic round-receipt exporter and offline verifier.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sub-Rosa-Issue/Meshvault-Labs.git",
+    "directory": "services/receipt-cli"
+  },
+  "bin": {
+    "receipt-cli": "src/index.ts"
+  },
+  "scripts": {
+    "start": "node --import tsx src/index.ts",
+    "receipt": "node --import tsx src/index.ts",
+    "test": "node --import tsx --test src/receipt.test.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@sub-rosa/logging": "workspace:*",
+    "@sub-rosa/sdk": "workspace:*",
+    "@sub-rosa/time": "workspace:*",
+    "@sub-rosa/tlock": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
